@@ -73,6 +73,25 @@
   font-size: 5rem;
 }
 
+#G {
+  color: #4385f3;
+}
+#o1 {
+  color: #ea4436;
+}
+#o2 {
+  color: #fbbd08;
+}
+#g {
+  color: #4385f3;
+}
+#l {
+  color: #34a853;
+}
+#e {
+  color: #ea4436;
+}
+
 /* Search Bar */
 .search-bar {
   display: flex;
