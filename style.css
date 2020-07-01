@@ -1,0 +1,113 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+
+/* Nav Bar Links */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  margin-top: 30px;
+  padding: 0 50px;
+  color: #404040;
+  font-size: 15px;
+  font-family: serif;
+}
+
+.nav-containertwo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 0 50px;
+  margin-top: -20px;
+  color: #404040;
+  font-size: 15px;
+  font-family: serif;
+}
+.nav-container a {
+  text-decoration: none;
+  color: #404040;
+}
+.nav-container a:hover {
+  opacity: 0.6;
+}
+
+.nav-container h4 {
+  padding-right: 20px;
+}
+
+.nav-containertwo a {
+  text-decoration: none;
+  color: #404040;
+}
+
+.nav-containertwo a:hover {
+  opacity: 0.6;
+}
+
+.nav-containertwo h4 {
+  padding-right: 20px;
+}
+
+
+
+
+
+/* Google Logo */
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px; 
+}
+
+.title-container h1 {
+  font-size: 5rem;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.search-bar input:hover {
+box-shadow: 3px 3px 5px lightgrey;
+}
+
+#search-bar {
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+}
+
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttons input {
+  margin: 0 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: gray;
+}
+
+.buttons input:hover{
+  color: #444;
+}
